@@ -1,17 +1,17 @@
-section.already-learned > ol li {
+section.already-learned > ol {
   color: white;
   background-color: green;
 }
-section.to-be-learned > ol li {
+section.to-be-learned > ol {
   color: green;
   background-color: orange;
 }
 
-section.already-learned > ol li code {
+section.already-learned > ol code {
   background-color: orange;
 }
 
-section.to-be-learned > ol li code {
+section.to-be-learned > ol code {
   background-color: green;
 }
 h4 > code {
