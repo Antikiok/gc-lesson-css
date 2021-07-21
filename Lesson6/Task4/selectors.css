@@ -7,13 +7,13 @@ section.to-be-learned > ol {
   background-color: orange;
 }
 
-section.already-learned > ol code {
+/* section.already-learned > ol code {
   background-color: orange;
 }
 
 section.to-be-learned > ol code {
   background-color: green;
-}
+} */
 h4 > code {
   border: 2px solid blue;
 }
