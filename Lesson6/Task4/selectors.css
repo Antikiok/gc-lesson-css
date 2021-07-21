@@ -7,11 +7,11 @@ section.to-be-learned > ol {
   background-color: orange;
 }
 
-section.already-learned > ol code {
+section.already-learned > ol li code {
   background-color: orange;
 }
 
-section.to-be-learned > ol code {
+section.to-be-learned > ol li code {
   background-color: green;
 }
 h4 > code {
