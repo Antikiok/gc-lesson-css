@@ -1,7 +1,5 @@
 .size {
-  box-sizing: border-box;
   height: 200px;
-  /* position: relative; */
   width: 20%;
 }
 .block_red {
