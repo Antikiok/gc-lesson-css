@@ -10,7 +10,7 @@
 
 .navigation .nav-item {
   float: left;
-  padding-right: 10px;
+  margin-left: 16px;
   color: white;
   line-height: 50%;
   list-style-type: none;
@@ -19,13 +19,13 @@
   height: 5000px;
   width: 100%;
   background: beige;
+  display: flex;
 }
 .head {
   width: 200px;
   height: 200px;
   background: aquamarine;
   margin: calc(50% - 100px);
-  position: absolute;
 }
 .ear {
   width: 40px;
@@ -42,15 +42,13 @@
 }
 
 .eye {
-  display: inline-block;
   border-radius: 50%;
   height: 30px;
   width: 30px;
   background-color: grey;
-  position: absolute;
 }
 .eye_left {
-  margin-top: 80px;
+  margin-top: -30px;
   margin-left: 40px;
 }
 .eye_right {
