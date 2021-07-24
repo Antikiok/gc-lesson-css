@@ -4,9 +4,6 @@
   position: fixed;
   width: 100%;
 }
-.navigation {
-  height: 40px;
-}
 
 .navigation .nav-item {
   float: left;
