@@ -3,6 +3,7 @@
   background: yellow;
 }
 .main {
+  position: relative;
   height: 500px;
   float: left;
   width: 80%;
