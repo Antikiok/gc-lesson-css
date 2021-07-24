@@ -4,11 +4,11 @@
   width: 50%;
 }
 .red {
-  float: left;
+  float: right;
   background-color: red;
 }
 .green {
-  float: right;
+  float: left;
   background-color: green;
 }
 .footer {
