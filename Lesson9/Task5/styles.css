@@ -25,7 +25,8 @@
   width: 200px;
   height: 200px;
   background: aquamarine;
-  margin: calc(50% - 100px);
+  margin-top: calc(50% - 400px);
+  margin-left: calc(50% - 100px);
 }
 .ear {
   width: 40px;
