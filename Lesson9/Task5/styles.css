@@ -7,10 +7,9 @@
 .nav-list {
   color: white;
 }
-.navigation .nav-item {
+.nav-item {
   height: 40px;
   float: left;
-  list-style-type: none;
   line-height: 50%;
   list-style-type: none;
   margin-left: 16px;
