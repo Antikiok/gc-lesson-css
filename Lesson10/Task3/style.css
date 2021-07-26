@@ -55,7 +55,7 @@ ul {
 }
 .news_list {
   list-style-type: none;
-  margin-left: 16px;
+  margin: 16px 0px 0px 16px;
 }
 .footer {
   display: flex;
