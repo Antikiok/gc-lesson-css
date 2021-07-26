@@ -51,11 +51,13 @@
 }
 ul {
   padding: 0px;
-  height: 40px;
+  /* height: 40px; */
+  margin-top: 16px;
 }
 .news_list {
   list-style-type: none;
-  margin: 16px 0px 0px 16px;
+  margin-left: 16px;
+  height: 40px;
 }
 .footer {
   display: flex;
