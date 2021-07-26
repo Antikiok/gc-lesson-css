@@ -43,18 +43,19 @@
   background-color: gray;
   width: 200px;
 }
-ul {
-  padding: 0px;
-}
+
 .news {
   margin-top: 16px;
   display: flex;
   justify-content: center;
 }
-
+ul {
+  padding: 0px;
+  height: 40px;
+}
 .news_list {
   list-style-type: none;
-  margin: 16px;
+  margin-left: 16px;
 }
 .footer {
   display: flex;
