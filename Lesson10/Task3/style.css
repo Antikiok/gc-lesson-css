@@ -46,13 +46,12 @@
 
 .news {
   margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: center;
 }
-ul {
+.text {
   padding: 0px;
-  /* height: 40px; */
-  margin-top: 16px;
 }
 .news_list {
   list-style-type: none;
