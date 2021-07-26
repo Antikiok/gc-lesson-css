@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.articles-list {
+  display: flex;
+}
+.article {
+  background-color: bisque;
+  margin: 8px;
+  padding: 16px;
+  min-width: 300px;
+  flex-grow: 1;
+}
