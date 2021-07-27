@@ -16,8 +16,7 @@ body {
   opacity: 0.8;
 }
 .menu-button:hover {
-  display: inline-block;
-  height: 34px;
+  position: absolute;
   background-color: darkgreen;
   padding: 16px;
   font-size: 16px;
