@@ -2,17 +2,21 @@ body {
   box-sizing: border-box;
 }
 .dropdown {
+  position: relative;
   margin: 16px;
+  height: 34px;
 }
 .dropdown:hover .menu-list {
   display: block;
 }
 .menu-button {
+  position: absolute;
   background-color: darkgreen;
   padding: 16px;
   opacity: 0.8;
 }
 .menu-button:hover {
+  display: inline-block;
   background-color: darkgreen;
   padding: 16px;
   font-size: 16px;
@@ -22,8 +26,9 @@ body {
 }
 .menu-list {
   display: none;
+  top: 34px;
   position: absolute;
-  background-color: ghostwhite;
+  background-color: lightcyan;
   padding: 0;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
