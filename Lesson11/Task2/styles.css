@@ -13,8 +13,10 @@ div {
   overflow: hidden;
 }
 .both-scrolls {
+  cursor: all-scroll;
   overflow: scroll;
 }
 .vertical-scroll {
+  cursor: all-scroll;
   overflow-y: auto;
 }
