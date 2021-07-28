@@ -4,7 +4,6 @@
 .dropdown {
   position: relative;
   margin: 16px;
-  height: 34px;
 }
 .dropdown:hover .menu-list {
   display: block;
@@ -26,7 +25,6 @@
 }
 .menu-list {
   display: none;
-  top: 34px;
   position: absolute;
   background-color: lightcyan;
   padding: 0;
