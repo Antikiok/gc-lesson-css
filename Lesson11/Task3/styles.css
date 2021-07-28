@@ -19,6 +19,7 @@
   cursor: pointer;
 }
 .menu-button {
+  color: white;
   height: 50px;
   position: absolute;
   background-color: darkgreen;
