@@ -9,12 +9,14 @@
   display: block;
 }
 .menu-button {
+  height: 50px;
   position: absolute;
   background-color: darkgreen;
   padding: 16px;
   opacity: 0.8;
 }
 .menu-button:hover {
+  height: 50px;
   position: absolute;
   background-color: darkgreen;
   padding: 16px;
@@ -25,6 +27,7 @@
 }
 .menu-list {
   display: none;
+  top: 34px;
   position: absolute;
   background-color: lightcyan;
   padding: 0;
