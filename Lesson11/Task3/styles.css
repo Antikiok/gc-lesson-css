@@ -8,14 +8,7 @@
 .dropdown:hover .menu-list {
   display: block;
 }
-.menu-button {
-  height: 50px;
-  position: absolute;
-  background-color: darkgreen;
-  padding: 16px;
-  opacity: 0.8;
-}
-.menu-button:hover {
+.dropdown:hover .menu-button {
   height: 50px;
   position: absolute;
   background-color: darkgreen;
@@ -25,6 +18,14 @@
   opacity: 1;
   cursor: pointer;
 }
+.menu-button {
+  height: 50px;
+  position: absolute;
+  background-color: darkgreen;
+  padding: 16px;
+  opacity: 0.8;
+}
+
 .menu-list {
   display: none;
   top: 34px;
