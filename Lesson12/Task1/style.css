@@ -1,0 +1,27 @@
+* {
+  margin: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  line-height: 28px;
+}
+.transform {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+a[href] {
+  text-decoration: none;
+}
+.translate {
+  color: gray;
+}
