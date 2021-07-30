@@ -15,6 +15,7 @@ p {
   line-height: 28px;
 }
 .transform {
+  font-weight: 900;
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 0.8;
