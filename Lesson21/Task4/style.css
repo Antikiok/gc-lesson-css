@@ -57,9 +57,7 @@ html {
   font-weight: 700;
 }
 .section {
-  /* display: flex; */
   width: 60%;
-  /* flex-direction: column; */
   padding: 0.5em;
   font-size: 1.25em;
 }
@@ -68,13 +66,12 @@ html {
   justify-content: center;
   font-size: 5vw;
 }
-.units-list-item {
+.units-list {
   line-height: 1.75em;
 }
+
 .news {
-  /* display: flex; */
   width: 20%;
-  /* flex-direction: column; */
   padding: 0.5em;
 }
 .footer {
