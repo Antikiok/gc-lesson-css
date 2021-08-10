@@ -20,7 +20,7 @@ html {
 .main {
   display: flex;
   width: 100vw;
-  font-size: 1.25em;
+  flex-grow: 1;
 }
 
 .navigation {
@@ -60,6 +60,7 @@ html {
   width: 60%;
   flex-direction: column;
   padding: 0.5em;
+  font-size: 1.25em;
 }
 .section__header {
   display: flex;
