@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
   font-size: 16px;
 }
@@ -54,7 +54,7 @@ html {
   color: #8b0000;
   background-color: #e5e5e5;
   font-size: 1.125em;
-  font-weight: 700px;
+  font-weight: 700;
 }
 .section {
   /* display: flex; */
