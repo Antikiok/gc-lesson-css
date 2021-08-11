@@ -72,9 +72,9 @@ html {
   justify-content: center;
   font-size: 5vw;
 }
-.section__text {
+/* .section__text {
   margin-top: 15px;
-}
+} */
 
 .units-list {
   line-height: 1.75em;
