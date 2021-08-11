@@ -1,11 +1,22 @@
+@import 'breakpoints.scss';
+
 .container {
   display: flex;
   flex-direction: column;
+  @include for-device-large {
+    flex-direction: row;
+  }
 }
+
 .products {
   display: flex;
   flex-direction: column;
+  @include for-device-medium {
+    flex-direction: row;
+    flex: 2;
+  }
 }
+
 .navigation {
   display: flex;
   flex: 1;
@@ -23,24 +34,4 @@
   flex: 1;
   background-color: #0ff;
   min-height: 200px;
-}
-
-@media screen and (min-width: 600px) {
-  .products {
-    flex-direction: row;
-    flex: 2;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container {
-    flex-direction: row;
-  }
-}
-span {
-  font-family: Verdana;
-  margin: auto;
-  padding: 8px;
-  border-radius: 4px;
-  background-color: #faebd7;
-  text-transform: lowercase;
 }

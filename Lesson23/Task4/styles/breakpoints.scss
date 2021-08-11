@@ -1,0 +1,13 @@
+$sd: 600px;
+$md: 900px;
+
+@mixin for-device-medium {
+  @media screen and (min-width: $sd) {
+    @content;
+  }
+}
+@mixin for-device-large {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
