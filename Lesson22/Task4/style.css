@@ -22,17 +22,16 @@ html {
   align-items: center;
   cursor: pointer;
 }
-.main {
-}
 
 .navigation {
   display: none;
   width: 100vw;
   padding: 0.5em;
 }
-.nav-listw {
-  display: flex;
+
+ul.nav-list {
   width: 20%;
+  padding: 0px;
 }
 .nav-list-item {
   display: flex;
