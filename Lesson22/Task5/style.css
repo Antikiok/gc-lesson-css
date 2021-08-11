@@ -12,13 +12,6 @@ html {
   background-image: linear-gradient(60deg, #ff0000, #ffa500);
   color: #fff;
 }
-.images {
-  display: flex;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-.images__big {
-  width: 100%;
-}
 
 .body {
   display: flex;
@@ -67,11 +60,22 @@ html {
   padding: 0.5em;
   font-size: 1.25em;
 }
+.images {
+  display: flex;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.images__big {
+  width: 100%;
+}
 .section__header {
   display: flex;
   justify-content: center;
   font-size: 5vw;
 }
+.section__text {
+  margin-top: 18px;
+}
+
 .units-list {
   line-height: 1.75em;
 }
