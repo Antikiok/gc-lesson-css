@@ -27,9 +27,11 @@ html {
     font-weight: 700;
     color: $text-color-secondary;
     cursor: pointer;
+    &_selected {
+      background-color: $color-primary;
+    }
     &:hover {
       opacity: 0.7;
-      background-color: $color-primary;
     }
   }
 }
