@@ -10,44 +10,9 @@ html {
   font-size: 16px;
 }
 
-.menu {
-  display: flex;
-  margin: 0px;
-  margin-left: 3em;
-
-  &__item {
-    text-transform: uppercase;
-    cursor: pointer;
-    line-height: 3em;
-    color: $color-text-secondary;
-    list-style-type: none;
-    &-text {
-      padding: 8px;
-      &:hover {
-        background-color: $color-hover;
-      }
-    }
-    &_active {
-      color: $color-text-hover;
-    }
-    &_active:hover .submenu {
-      display: block;
-      background-color: $color-secondary;
-    }
-  }
-}
-.submenu {
-  //   display: none;
-  left: 10px;
-  flex-direction: column;
-  cursor: pointer;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px 8px;
-  color: $color-text-secondary;
-  min-width: 120px;
-  z-index: 1;
-  &__item:hover {
-    color: $color-text-primary;
-  }
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

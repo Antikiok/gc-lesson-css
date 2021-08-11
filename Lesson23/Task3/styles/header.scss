@@ -1,6 +1,47 @@
 @import 'variables.scss';
 .header {
-  display: flex;
   height: 3em;
   background-color: $color-primary;
+}
+.menu {
+  display: flex;
+  margin-left: 3em;
+
+  &__item {
+    position: relative;
+    padding: 0 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 3em;
+    color: $color-text-secondary;
+    &-text {
+      padding: 8px;
+      &:hover {
+        background-color: $color-hover;
+      }
+    }
+    &_active {
+      color: $color-text-hover;
+    }
+    &_active:hover .submenu {
+      display: block;
+    }
+  }
+}
+.submenu {
+  display: none;
+  left: 10px;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+  color: $color-text-secondary;
+  min-width: 120px;
+  z-index: 1;
+  background-color: $color-secondary;
+
+  &__item {
+    padding: 0px 8px;
+  }
+  &__item:hover {
+    color: $color-text-primary;
+  }
 }
