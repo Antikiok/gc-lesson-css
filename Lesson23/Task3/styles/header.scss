@@ -1,47 +1,52 @@
-@import 'variables.scss';
 .header {
   height: 3em;
-  background-color: $color-primary;
+  background-color: #006400;
+  color: #fff;
+  text-transform: uppercase;
 }
+
 .menu {
-  display: flex;
   margin-left: 3em;
+  display: flex;
 
   &__item {
     position: relative;
     padding: 0 8px;
-    text-transform: uppercase;
-    cursor: pointer;
     line-height: 3em;
-    color: $color-text-secondary;
-    &-text {
-      padding: 8px;
-      &:hover {
-        background-color: $color-hover;
-      }
-    }
+    color: white;
+    list-style-type: none;
+
     &_active {
-      color: $color-text-hover;
-    }
-    &_active:hover .submenu {
-      display: block;
+      color: yellow;
+
+      &:hover {
+        .submenu {
+          display: block;
+        }
+      }
     }
   }
 }
+
 .submenu {
   display: none;
+  color: #fff;
   left: 10px;
-  cursor: pointer;
-  box-shadow: $box-shadow;
-  color: $color-text-secondary;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   min-width: 120px;
+  background-color: #ff7f50;
   z-index: 1;
-  background-color: $color-secondary;
+
+  &:hover {
+    color: #000;
+  }
 
   &__item {
-    padding: 0px 8px;
-  }
-  &__item:hover {
-    color: $color-text-primary;
+    color: #fff;
+    padding: 0 8px;
+
+    &:hover {
+      color: #000;
+    }
   }
 }
