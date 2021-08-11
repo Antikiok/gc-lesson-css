@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.header__navigation {
+  background-color: #eee;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.nav-list__item {
+  list-style-type: none;
+  border-radius: 4px;
+  background-color: #ff7f50;
+  padding: 8px;
+  margin-left: 8px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-list__item:hover {
+  opacity: 0.7;
+  background-color: #fb0;
+}
+
+/*# sourceMappingURL=styles.css.map */
