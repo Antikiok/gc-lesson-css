@@ -322,7 +322,8 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto 15px;
+  padding: auto 15px;
+  background: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
