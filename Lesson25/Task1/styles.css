@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  background-color: #000;
+}
+
+body {
+  display: flex;
+  width: 1440px;
+  margin: 132px 115px;
+}
+
+span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+img {
+  padding: 0px 22px;
+}
+
+button.backgr-blue,
+p.backgr-blue {
+  background-color: #3a6ba5;
+}
+
+button.backgr-orange,
+p.backgr-orange {
+  background-color: #ec632a;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 770px;
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.price-card__popular {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 100px;
+  top: 109px;
+  left: 815px;
+  transform: rotate(45deg);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border-bottom: 25px solid red;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+.price-card__popular::after {
+  content: "POPULAR";
+  display: block;
+  position: relative;
+  top: 50px;
+}
+.price-card__title {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__price {
+  display: flex;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  color: #ffffff;
+  background: #5bb189;
+  height: 105px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.price-card__description {
+  margin: 40px 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+.price-card__options {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.price-card__options_list {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  mix-blend-mode: normal;
+  color: #ffffff;
+}
+.price-card__options_list:nth-child(odd) {
+  background: #2a3438;
+  mix-blend-mode: normal;
+}
+.price-card__order-btn {
+  margin: 40px auto;
+  background: #5bb189;
+  border-radius: 20px;
+  height: 40px;
+  width: 155px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+}
+.price-card__order-btn:nth-child(even) {
+  background: #3a6ba5;
+}
+
+/*# sourceMappingURL=styles.css.map */
