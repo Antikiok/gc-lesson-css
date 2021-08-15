@@ -288,9 +288,9 @@ span {
   .headline__heading {
     position: absolute;
     height: 165px;
-    left: 9.3%;
-    right: 37.14%;
-    top: 24%;
+    width: 754px;
+    left: 126px;
+    top: 188px;
     font-weight: bold;
     font-size: 80px;
     line-height: 78px;
