@@ -43,6 +43,7 @@
     color: #ffffff;
   }
   &__price {
+    height: 105px;
     display: flex;
     font-weight: bold;
     font-size: 55px;
@@ -50,7 +51,6 @@
 
     color: #ffffff;
     background: #5bb189;
-    height: 105px;
     margin: 0px;
     justify-content: center;
     align-items: center;
