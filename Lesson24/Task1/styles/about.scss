@@ -3,11 +3,15 @@
 .about {
   display: flex;
   background-color: #f4f5f7;
+  @include for-device-large {
+  }
 }
 .article {
   margin: 46px 15px 0px 15px;
   @include for-device-large {
     display: flex;
+    flex-grow: 1;
+    justify-content: center;
     margin: 62px 115px;
   }
 

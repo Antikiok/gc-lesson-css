@@ -27,13 +27,14 @@ span {
   display: flex;
   background-color: #f4f5f7;
 }
-
 .article {
   margin: 46px 15px 0px 15px;
 }
 @media screen and (min-width: 1400px) {
   .article {
     display: flex;
+    flex-grow: 1;
+    justify-content: center;
     margin: 62px 115px;
   }
 }
@@ -289,7 +290,7 @@ span {
     position: absolute;
     height: 165px;
     width: 754px;
-    left: 126px;
+    left: 148px;
     top: 188px;
     font-weight: bold;
     font-size: 80px;
@@ -328,7 +329,7 @@ span {
 @media screen and (min-width: 1400px) {
   .order {
     flex-direction: row;
-    margin: 70px 224px;
+    padding: 70px 224px;
   }
 }
 .order__image {
@@ -337,6 +338,8 @@ span {
 }
 @media screen and (min-width: 1400px) {
   .order__image {
+    display: flex;
+    justify-content: center;
     margin: 0px;
     width: 100%;
   }
@@ -348,6 +351,7 @@ span {
 }
 @media screen and (min-width: 1400px) {
   .order__form {
+    flex-grow: 1;
     align-items: flex-start;
   }
 }
@@ -372,6 +376,7 @@ span {
 @media screen and (min-width: 1400px) {
   .order__form_text {
     margin: 22px 0px;
+    width: 555px;
   }
 }
 .order__form_cta {
@@ -396,7 +401,7 @@ span {
     height: 48px;
     width: 385px;
     border-radius: 2px;
-    margin: 0px;
+    margin: auto 10px;
   }
 }
 .order__form_trial {
